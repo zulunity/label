@@ -157,6 +157,7 @@ variable "label_value_case" {
 
 variable "name" {
   type        = string
+  default     = null
   description = "Module name, e.g. 'app' or 'jenkins'"
 }
 
